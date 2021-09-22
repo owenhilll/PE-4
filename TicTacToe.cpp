@@ -17,7 +17,7 @@ int main(){
   //initializes tic tac toe baord with blank spaces in each section
   CreateBoard();
   //testing to see if board initialized
-  std::cout << TicTacToe[0][0] << std::endl;
-  //
+  std::cout << "What" << std::endl;
+  std::cout << "Again" << std::endl;
   return 0;
 }

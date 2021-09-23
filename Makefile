@@ -7,4 +7,4 @@ clean:
 	rm Board
 
 Board: TicTacToe.cpp
-	$(CXX) $(CXXFLAGS) TicTacToe.cpp -o Board
+	$(CXX) $(CXXFLAGS) main.cpp TicTacToe.cpp -o Board

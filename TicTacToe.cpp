@@ -47,6 +47,22 @@ void TicTacToe::DisplayBoard(){
   std::cout<<"\n\n";
 }
 
+Position TicTacToe::getPlayerTurn(){
+  //Asks for user input on row they wish to move to
+    int row;
+    std::cout << "Enter desired row(0-2): " ;
+    std::cin >> row;
+  //Asks player for column they wish to move to
+    int col;
+    std::cout << "Enter desired Column(0-2): ";
+    std::cin >> col;
+  //creates a new position based on the player input for row/col. Then returns position accordindly.
+    Position newmove;
+    newmove.row = row;
+    newmove.col = col;
+    return newmove;
+}
+
 Player* TicTacToe::get_currentPlayer(){
   return currentPlayer;
 }

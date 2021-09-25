@@ -1,20 +1,24 @@
+/**
+ * CSCI 3010 - Programming Exercise 4
+ * Zach Akin-Amland
+ * Owen Hill
+ * 
+ * This is the main driver file for the TicTacToe game
+ * that creates an empty 3x3 board and then
+ * alternates players taking turns until
+ * 9 total turns have been taken
+ * 
+ * Commands to run the program:
+ * $ make clean
+ * $ make all
+ * $ ./Board
+ * 
+*/
 #include "TicTacToe.h"
 #include <iostream>
 
 int main(){
   TicTacToe Game;
-  Game.DisplayBoard();
-  Player* test = Game.get_currentPlayer();
-  Position location1;
-  location1.row = 0;
-  location1.col = 0;
-  Position location2;
-  location2.row = 0;
-  location2.col = 2;
-  Game.PlaceMarker(location1,*test,test);
-  Game.PlaceMarker(location2,*test,test);
-//   testing functions to see if they work
-//   Position t = Game.getPlayerTurn();
-//   Game.PlaceMarker(t,*test,test);
+  Game.playGame();
   return 0;
 }

@@ -137,8 +137,14 @@ bool TicTacToe::gameOver(){
  * @return none
 */
 void TicTacToe::playGame(){
+  std::cout<<std::endl;
+  std::cout<<"Welcome to Tic Tac Toe!"<<std::endl;
+  std::cout<<"Player1 is " << x_emoji << std::endl;
+  std::cout<<"Player1 is " << o_emoji << std::endl;
   DisplayBoard();
   while(!gameOver()){
+    std::cout<<std::endl;
+    std::cout<<currentPlayer->name<<"'s turn: "<<std::endl;
     PlaceMarker(getPlayerTurn(),currentPlayer);
   }
 }

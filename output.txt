@@ -1,0 +1,100 @@
+
+Welcome to Tic Tac Toe!
+Player1 is ❌
+Player1 is ⭕
+
+⬜⬜⬜
+⬜⬜⬜
+⬜⬜⬜
+
+
+Player1's turn: 
+Enter desired row (0-2): 0
+Enter desired column (0-2): 2
+
+⬜⬜❌
+⬜⬜⬜
+⬜⬜⬜
+
+Player1 placed ❌ at [0][2].
+
+Player2's turn: 
+Enter desired row (0-2): 2
+Enter desired column (0-2): 2
+
+⬜⬜❌
+⬜⬜⬜
+⬜⬜⭕
+
+Player2 placed ⭕ at [2][2].
+
+Player1's turn: 
+Enter desired row (0-2): 1
+Enter desired column (0-2): 1
+
+⬜⬜❌
+⬜❌⬜
+⬜⬜⭕
+
+Player1 placed ❌ at [1][1].
+
+Player2's turn: 
+Enter desired row (0-2): 2
+Enter desired column (0-2): 0
+
+⬜⬜❌
+⬜❌⬜
+⭕⬜⭕
+
+Player2 placed ⭕ at [2][0].
+
+Player1's turn: 
+Enter desired row (0-2): 2
+Enter desired column (0-2): 1
+
+⬜⬜❌
+⬜❌⬜
+⭕❌⭕
+
+Player1 placed ❌ at [2][1].
+
+Player2's turn: 
+Enter desired row (0-2): 0
+Enter desired column (0-2): 1
+
+⬜⭕❌
+⬜❌⬜
+⭕❌⭕
+
+Player2 placed ⭕ at [0][1].
+
+Player1's turn: 
+Enter desired row (0-2): 1
+Enter desired column (0-2): 0
+
+⬜⭕❌
+❌❌⬜
+⭕❌⭕
+
+Player1 placed ❌ at [1][0].
+
+Player2's turn: 
+Enter desired row (0-2): 1
+Enter desired column (0-2): 2
+
+⬜⭕❌
+❌❌⭕
+⭕❌⭕
+
+Player2 placed ⭕ at [1][2].
+
+Player1's turn: 
+Enter desired row (0-2): 0 
+Enter desired column (0-2): 0
+
+❌⭕❌
+❌❌⭕
+⭕❌⭕
+
+Player1 placed ❌ at [0][0].
+Game Over!

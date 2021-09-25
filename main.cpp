@@ -13,5 +13,8 @@ int main(){
   location2.col = 2;
   Game.PlaceMarker(location1,*test,test);
   Game.PlaceMarker(location2,*test,test);
+//   testing functions to see if they work
+//   Position t = Game.getPlayerTurn();
+//   Game.PlaceMarker(t,*test,test);
   return 0;
 }

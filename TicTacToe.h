@@ -24,6 +24,7 @@ class TicTacToe{
     public:
         TicTacToe();                                            //constuctor, initializes board with empty squares
         void initPlayers();                                     // sets player values, connects the players with a doubly linked list
+        Position getPlayerTurn();
         void DisplayBoard();                                    // displays the board
         bool PlaceMarker(Position pos, Player current, Player *&nextPlayer);  // Updates the output of the board
         Player* get_currentPlayer();
